@@ -3,6 +3,9 @@
 A private repository by [S540d](https://github.com/S540d) for ESP32-based multi-display projects using C++ and [PlatformIO](https://github.com/platformio/platformio-core).  
 This project is structured for modular development on the ESP32 platform, supporting multiple display interfaces and features.
 
+> **Board Compatibility:**  
+> The code is designed for use with the **JC2432W328 Board** (ESP32-based).
+
 ## Project Structure
 
 - `src/main.cpp` – Main application code.
@@ -15,7 +18,7 @@ This project is structured for modular development on the ESP32 platform, suppor
 
 1. **Requirements**  
    - [PlatformIO](https://platformio.org/) (recommended IDE integration: VS Code)
-   - ESP32 development board
+   - ESP32 development board (specifically the JC2432W328 Board)
 
 2. **Setup**  
    - Clone this repository:  
